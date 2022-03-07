@@ -1,10 +1,9 @@
-
 # -*- coding: utf-8 -*-
 
 # Form implementation generated from reading ui file 'mainwindow.ui',
 # licensing of 'mainwindow.ui' applies.
 #
-# Created: Mon Mar  7 12:46:32 2022
+# Created: Mon Mar  7 21:00:27 2022
 #      by: pyside2-uic  running on PySide2 5.13.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -40,6 +39,9 @@ class Ui_MainWindow(object):
         self.decrypt_button = QtWidgets.QPushButton(self.layoutWidget)
         self.decrypt_button.setObjectName("decrypt_button")
         self.horizontalLayout_2.addWidget(self.decrypt_button)
+        self.decrypt_save_button = QtWidgets.QPushButton(self.layoutWidget)
+        self.decrypt_save_button.setObjectName("decrypt_save_button")
+        self.horizontalLayout_2.addWidget(self.decrypt_save_button)
         self.decrypt_load_button = QtWidgets.QPushButton(self.layoutWidget)
         self.decrypt_load_button.setObjectName("decrypt_load_button")
         self.horizontalLayout_2.addWidget(self.decrypt_load_button)
@@ -77,6 +79,9 @@ class Ui_MainWindow(object):
         self.encrypt_button = QtWidgets.QPushButton(self.layoutWidget1)
         self.encrypt_button.setObjectName("encrypt_button")
         self.horizontalLayout.addWidget(self.encrypt_button)
+        self.encrypt_save_button = QtWidgets.QPushButton(self.layoutWidget1)
+        self.encrypt_save_button.setObjectName("encrypt_save_button")
+        self.horizontalLayout.addWidget(self.encrypt_save_button)
         self.encrypt_load_button = QtWidgets.QPushButton(self.layoutWidget1)
         self.encrypt_load_button.setObjectName("encrypt_load_button")
         self.horizontalLayout.addWidget(self.encrypt_load_button)
@@ -85,12 +90,30 @@ class Ui_MainWindow(object):
         self.menubar = QtWidgets.QMenuBar(MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 787, 21))
         self.menubar.setObjectName("menubar")
-        self.menu_Help = QtWidgets.QMenu(self.menubar)
-        self.menu_Help.setObjectName("menu_Help")
+        self.menu_more = QtWidgets.QMenu(self.menubar)
+        self.menu_more.setObjectName("menu_more")
+        self.menuHelp = QtWidgets.QMenu(self.menu_more)
+        self.menuHelp.setObjectName("menuHelp")
         MainWindow.setMenuBar(self.menubar)
         self.actionHelp = QtWidgets.QAction(MainWindow)
         self.actionHelp.setObjectName("actionHelp")
-        self.menubar.addAction(self.menu_Help.menuAction())
+        self.action_author = QtWidgets.QAction(MainWindow)
+        self.action_author.setObjectName("action_author")
+        self.action_info = QtWidgets.QAction(MainWindow)
+        self.action_info.setObjectName("action_info")
+        self.actionAlphabets = QtWidgets.QAction(MainWindow)
+        self.actionAlphabets.setObjectName("actionAlphabets")
+        self.actionConstraints = QtWidgets.QAction(MainWindow)
+        self.actionConstraints.setObjectName("actionConstraints")
+        self.actionHow_to_use = QtWidgets.QAction(MainWindow)
+        self.actionHow_to_use.setObjectName("actionHow_to_use")
+        self.menuHelp.addAction(self.actionAlphabets)
+        self.menuHelp.addAction(self.actionConstraints)
+        self.menuHelp.addAction(self.actionHow_to_use)
+        self.menu_more.addAction(self.menuHelp.menuAction())
+        self.menu_more.addAction(self.action_author)
+        self.menu_more.addAction(self.action_info)
+        self.menubar.addAction(self.menu_more.menuAction())
 
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
@@ -102,8 +125,10 @@ class Ui_MainWindow(object):
             "MainWindow", "Message to Decrypt", None, -1))
         self.decrypt_button.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Decrypt", None, -1))
-        self.decrypt_load_button.setText(QtWidgets.QApplication.translate(
+        self.decrypt_save_button.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Save To file", None, -1))
+        self.decrypt_load_button.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "Load From File", None, -1))
         self.label_3.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Created by Pawel Koch", None, -1))
         self.label.setText(QtWidgets.QApplication.translate(
@@ -112,9 +137,23 @@ class Ui_MainWindow(object):
             "MainWindow", "Keyword", None, -1))
         self.encrypt_button.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Encrypt", None, -1))
+        self.encrypt_save_button.setText(
+            QtWidgets.QApplication.translate("MainWindow", "SaveTo File", None, -1))
         self.encrypt_load_button.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Load From File", None, -1))
-        self.menu_Help.setTitle(QtWidgets.QApplication.translate(
-            "MainWindow", "&Help", None, -1))
+        self.menu_more.setTitle(QtWidgets.QApplication.translate(
+            "MainWindow", "&More", None, -1))
+        self.menuHelp.setTitle(QtWidgets.QApplication.translate(
+            "MainWindow", "Help", None, -1))
         self.actionHelp.setText(QtWidgets.QApplication.translate(
             "MainWindow", "Help", None, -1))
+        self.action_author.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "Author", None, -1))
+        self.action_info.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "Info", None, -1))
+        self.actionAlphabets.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "Alphabets", None, -1))
+        self.actionConstraints.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "Constraints", None, -1))
+        self.actionHow_to_use.setText(QtWidgets.QApplication.translate(
+            "MainWindow", "How to use?", None, -1))

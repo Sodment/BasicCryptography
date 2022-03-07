@@ -2,6 +2,7 @@ import random
 import string
 import numpy as np
 
+
 def round_of_ubich(keyword, text):
     mat = np.array([ch for ch in keyword+text])
     mat.resize(len(text)//len(keyword) + 2, len(keyword))
@@ -23,7 +24,7 @@ def round_of_ubich_decrypt(keyword, text):
     mat[0] = [ch for ch in keyword]
     print(f'Krok 1: \n{mat}')
     k = 0
-    empty = ' ' * len(text)
+    empty = '-' * len(text)
     for i in range(1, len(text)//len(keyword) + 2):
         for j in range(len(keyword)):
             try:
@@ -51,6 +52,7 @@ def round_of_ubich_decrypt(keyword, text):
     arr = mat.flatten('C')
     arr = ''.join(ch for ch in arr)
     arr = arr.replace('~', '')
+    print(f'Krok 4: \n{arr}')
     return arr
 
 
@@ -74,11 +76,13 @@ def get_original_positions(original):
 def encrypt(keyword, text):
     text = str(text).upper().replace(' ', '')
     words_in_keyword = len(str(keyword).split())
-    first_round = round_of_ubich(keyword, text)
+    print(words_in_keyword)
+    key = str(keyword).replace(' ', '')
+    first_round = round_of_ubich(key, text)
     null_letters = ''.join(random.SystemRandom().choice(
         string.ascii_uppercase + string.digits) for _ in range(words_in_keyword))
     first_round = first_round + null_letters
-    second_round = round_of_ubich(keyword, first_round)
+    second_round = round_of_ubich(key, first_round)
     print(f'Encrypted message: {second_round}')
     return second_round
 
@@ -86,8 +90,10 @@ def encrypt(keyword, text):
 def decrypt(keyword, text):
     text = str(text).upper()
     words_in_keyword = len(str(keyword).split())
-    first_round = round_of_ubich_decrypt(keyword, text)
+    print(words_in_keyword)
+    key = str(keyword).replace(' ', '')
+    first_round = round_of_ubich_decrypt(key, text)
     first_round = first_round[:len(text)-words_in_keyword]
-    print(f'Krok 4: \n{first_round}')
-    second_round = round_of_ubich_decrypt(keyword, first_round)
+    second_round = round_of_ubich_decrypt(key, first_round)
+    print(f'Decrypted message: \n{second_round}')
     return second_round
