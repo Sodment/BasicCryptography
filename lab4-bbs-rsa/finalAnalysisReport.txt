@@ -5,161 +5,161 @@ RESULTS FOR THE UNIFORMITY OF P-VALUES AND THE PROPORTION OF PASSING SEQUENCES
 ------------------------------------------------------------------------------
  C1  C2  C3  C4  C5  C6  C7  C8  C9 C10  P-VALUE  PROPORTION  STATISTICAL TEST
 ------------------------------------------------------------------------------
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    block-frequency
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    block-frequency
   0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   0.0000 *  nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
   0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
   1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
   0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
-  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    overlapping-templates
-  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    universal
-  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    apen
-  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    serial
-  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    serial
-  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    linear-complexity
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   1   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   1   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   1   0   0   0   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   1   0   0   0  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   0   0   0   0   1  -1.#IND00   1.0000    nonperiodic-templates
+  0   0   0   0   0   1   0   0   0   0  -1.#IND00   1.0000    overlapping-templates
+  0   1   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    universal
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    apen
+  0   0   0   0   1   0   0   0   0   0  -1.#IND00   1.0000    serial
+  1   0   0   0   0   0   0   0   0   0  -1.#IND00   1.0000    serial
+  0   0   0   0   0   0   0   0   1   0  -1.#IND00   1.0000    linear-complexity
 
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - -- - - - - - - - - - - - -
