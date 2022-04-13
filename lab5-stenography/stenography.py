@@ -6,7 +6,8 @@ from PySide2.QtGui import QPixmap
 from main_ui import Ui_MainWindow
 import sys
 
-description = '''Ubchi jest szyfrem dwukrotnego przestawienia kolumnowego stosowanym przez niemcow podczas I Wojny światowej do przekazywania informacji. Do zaszyfrowania wiadomosci tą metodą potrzebujemy słowa/zdania kluczowego. Szyfrowanie odbywa sie poprzez numerowanie liter słowa kluczowego w porzadku alfabetycznym (litery powtarzajace sie były numerowane od lewej do prawej) a nastepnie wykonaniu szesciu krokow zwiazanych z przestawieniami w tabeli Deszyfrowanie to wykonanie krokow szyfrowania w odwrotnej kolejnosci'''
+description = '''Simple LSB stenograph implementation, the input should be an image and message either loaded from file or entere manually to encrypt into the image,
+Then you can either decrypt or encrypt a message into the selected image'''
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -82,13 +83,12 @@ class MainWindow(QtWidgets.QMainWindow):
             self, "Help", '''To encrypt/decrypt a message just use the text fields to input the text and Keyword field to input a valid keywordthen press the Encrypt/Decrypt button and the encrypted/decrypted message will pop up in counter-field,ie. encrypted message by use of ecnrypt button wil pop up in decrypt text field.You can also load message to encrypt/decrypt from .txt file by ussing adequate button''')
 
     def message_box_alphabets(self):
-        QtWidgets.QMessageBox.information(self, "Alphabets", '''Program support all kinds of alphabets that are supported by UTF-8 encoding,
-        a large amount of whitespaces can obscure the prcoess, use of char - and ~ may result in failure due to internal system
-        program was tested against german, polish, english, chinese and emoji alphabets containig 20-30 words''')
+        QtWidgets.QMessageBox.information(
+            self, "Alphabets", '''It support al utf-8 encoded strings to encrypt/decrypt''')
 
     def message_box_constraints(self):
-        QtWidgets.QMessageBox.information(self, "Constraints", '''Keyword shnould not belonger than 15 characters including special characters,
-        The message to encrypt/decrypt was tested against very long texts eg. lorem ipsum or Pan Tadeusz, Max numbers of characters to encrypt/decrypt is around  2**16''')
+        QtWidgets.QMessageBox.information(
+            self, "Constraints", '''No constrainst were found as of now''')
 
 
 def Encode(src, message):
