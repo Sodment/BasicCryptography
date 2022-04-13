@@ -5,9 +5,9 @@ from math import gcd
 from collections import deque
 from copy import copy
 
-path_to_save = "lab4-bbs-rsa/test_1mln_1.txt"
+path_to_save = "lab4-bbs-rsa/test_20k_2.txt"
 p, q = 11, 23
-bits_to_generate = 1000000
+bits_to_generate = 20000
 
 
 def decompose(n):

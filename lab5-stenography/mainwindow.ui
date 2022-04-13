@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>787</width>
+    <height>573</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ubich Cipher</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>510</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Created by Pawel Koch</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>7</y>
+      <width>611</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_5"/>
+       </item>
+       <item>
+        <widget class="QLabel" name="image_shower">
+         <property name="text">
+          <string>Image</string>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="path_to_image">
+         <property name="text">
+          <string>Load Image From File</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>Message</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTextEdit" name="message_textfield"/>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="encrypt_button">
+         <property name="text">
+          <string>Encrypt</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="decrypt_button">
+         <property name="text">
+          <string>Decrypt</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="load_message_button">
+         <property name="text">
+          <string>Load From File</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>787</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_more">
+    <property name="title">
+     <string>&amp;More</string>
+    </property>
+    <widget class="QMenu" name="menuHelp">
+     <property name="title">
+      <string>Help</string>
+     </property>
+     <addaction name="actionAlphabets"/>
+     <addaction name="actionConstraints"/>
+     <addaction name="actionHow_to_use"/>
+    </widget>
+    <addaction name="menuHelp"/>
+    <addaction name="action_author"/>
+    <addaction name="action_info"/>
+   </widget>
+   <addaction name="menu_more"/>
+  </widget>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="action_author">
+   <property name="text">
+    <string>Author</string>
+   </property>
+  </action>
+  <action name="action_info">
+   <property name="text">
+    <string>Info</string>
+   </property>
+  </action>
+  <action name="actionAlphabets">
+   <property name="text">
+    <string>Alphabets</string>
+   </property>
+  </action>
+  <action name="actionConstraints">
+   <property name="text">
+    <string>Constraints</string>
+   </property>
+  </action>
+  <action name="actionHow_to_use">
+   <property name="text">
+    <string>How to use?</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
